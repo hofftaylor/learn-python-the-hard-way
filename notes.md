@@ -6,3 +6,4 @@
 * Better understand formatted strings from ex8 & ex10 drill 3.
 * Practice if/else/then statements
 * Understand the concept of commands that are given to a file, and how to do them. ie; "file.command(arguments)"
+* Learn git and figure out how to get it working with Atom

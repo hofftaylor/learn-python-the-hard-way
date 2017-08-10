@@ -19,7 +19,7 @@ input()
 out_file = open(to_file, 'w')
 out_file.write(indata)
 
-print("Alright, all done.")
+print("File copied successfully.")
 
 out_file.close()
 in_file.close()

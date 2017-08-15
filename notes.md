@@ -9,7 +9,10 @@
 See this(https://stackoverflow.com/questions/3561279/learn-python-the-hard-way-exercise-17-extra-questions)
 - [X] ~Make flashcards for exercise 18's drills~ (I made a .md file instead)
 
-## Exercises to revisit
+## Exercises to revisit:
 - [ ] Ex 08
 - [ ] Ex 10 Drill 1 & 3
 - [ ] Ex 17
+
+## Tasks to do:
+- [ ] Fix ex17 code to create and copy files that use it's name, so we don't have test.txts floating around everywhere. (And clean those txt files up while we're at it.)

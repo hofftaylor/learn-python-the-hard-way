@@ -7,7 +7,7 @@
 - [X] ~Learn git and figure out how to get it working with Atom~
 - [ ] Figure out how to get Exercise 17's one liner down to the skinniest amount of code possible.
 See this(https://stackoverflow.com/questions/3561279/learn-python-the-hard-way-exercise-17-extra-questions)
-- [X] ~Make flashcards for exercise 18's drills~ (I made a .md instead)
+- [X] ~Make flashcards for exercise 18's drills~ (I made a .md file instead)
 
 ## Exercises to revisit
 - [ ] Ex 8

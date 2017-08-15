@@ -1,7 +1,7 @@
 # Notes & To-Dos for LP3THW
 ## Things I need to follow up on:
 - [ ] Make flashcards for exercise 10 drill 1
-- [ ] Better understand formatted strings from ex8 & ex10 drill 3.
+- [ ] Better understand formatted strings from ex08 & ex10 drill 3.
 - [ ] Practice if/else/then statements
 - [ ] Understand the concept of commands that are given to a file, and how to do them. ie; "file.command(arguments)"
 - [X] ~Learn git and figure out how to get it working with Atom~
@@ -10,6 +10,6 @@ See this(https://stackoverflow.com/questions/3561279/learn-python-the-hard-way-e
 - [X] ~Make flashcards for exercise 18's drills~ (I made a .md file instead)
 
 ## Exercises to revisit
-- [ ] Ex 8
+- [ ] Ex 08
 - [ ] Ex 10 Drill 1 & 3
 - [ ] Ex 17

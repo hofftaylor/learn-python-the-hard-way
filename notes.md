@@ -1,7 +1,5 @@
-# Notes & To-Dos for Learning Python The Hard Way
+# Notes & To-Dos for LP3THW
 ## Things I need to follow up on:
-### Making a list of things I need to follow up on or exercises I didn't fully get.
-
 - [ ] Make flashcards for exercise 10 drill 1
 - [ ] Better understand formatted strings from ex8 & ex10 drill 3.
 - [ ] Practice if/else/then statements
@@ -10,3 +8,8 @@
 - [ ] Figure out how to get Exercise 17's one liner down to the skinniest amount of code possible.
 See this(https://stackoverflow.com/questions/3561279/learn-python-the-hard-way-exercise-17-extra-questions)
 - [X] ~Make flashcards for exercise 18's drills~ (I made a .md instead)
+
+## Exercises to revisit
+- [ ] Ex 8
+- [ ] Ex 10 Drill 1 & 3
+- [ ] Ex 17

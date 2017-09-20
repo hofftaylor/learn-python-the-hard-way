@@ -15,6 +15,7 @@ See this(https://stackoverflow.com/questions/3561279/learn-python-the-hard-way-e
 - [ ] Ex 17
 - [X] ~Ex 19 Drill 3~ (Made an orbital eccentricity calculator! Didn't do it 10 different ways though... BOO)
 - [ ] Ex 20 Drill 2 (What is the significance of the variable(?)'f' in this one?)
+- [ ] Ex 22
 
 ## Tasks to do:
 - [ ] Fix ex17 code to create and copy files that use it's name, so we don't have test.txts floating around everywhere. (And clean those txt files up while we're at it.)

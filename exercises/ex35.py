@@ -46,7 +46,7 @@ def bear_room():
 def cthulu_room():
     print("Here you see the great evil Cthulu.")
     print("""He/she/it stares at you, eyes burrowing holes in your sanity.
-    You go insane.""")
+You go insane.""")
     print("Do you flee for your life, or eat your own head?")
 
     choice = input("> ")

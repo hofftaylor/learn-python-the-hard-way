@@ -1,6 +1,7 @@
-#Exercise 35 - Branches and Functions
+# Exercise 35 - Branches and Functions
 
 from sys import exit
+
 
 def gold_room():
     print("This room is full of gold. How much do you take?")
@@ -41,9 +42,11 @@ def bear_room():
         else:
             print("I got no idea what that means.")
 
+
 def cthulu_room():
     print("Here you see the great evil Cthulu.")
-    print("He/she/it stares at you, eyes burrowing holes in your sanity. You go insane.")
+    print("""He/she/it stares at you, eyes burrowing holes in your sanity.
+    You go insane.""")
     print("Do you flee for your life, or eat your own head?")
 
     choice = input("> ")
@@ -55,9 +58,11 @@ def cthulu_room():
     else:
         cthulu_room()
 
+
 def dead(why):
     print(why, "Good job!")
     exit(0)
+
 
 def start():
     print("You are in a dark room.")
@@ -72,5 +77,6 @@ def start():
         cthulu_room()
     else:
         dead("You stumble around in the room until you starve.")
+
 
 start()

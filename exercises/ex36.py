@@ -1,7 +1,7 @@
 # Exercise 36 - Designing and Debugging
 
 from sys import exit
-
+import random
 
 def start():
     score = 0
@@ -56,15 +56,31 @@ def nextroom():
             You move forward, eager to put this room behind you.""")
     score = score + 1
     print(f"Somewhere in the multiverse, a counter ticks up to {score} rooms passed!")
-
-def scorecheck():
+    availRoomRange =+ nextRoomNumber
     if score < 10:
-        nextroom()
+        nextRoomNumber = random.randint(availRoomRange)
+        if nextRoomNumber = 0:
+            room_0()
+        elif nextRoomNumber = 1:
+            room_1()
+        elif nextRoomNumber = 2:
+            room_2()
+        elif nextRoomNumber = 3:
+            room_3()
+        elif nextRoomNumber = 4:
+            room_4()
+        elif nextRoomNumber = 5:
+            room_5()
+        elif nextRoomNumber = 6:
+            room_6()
+        elif nextRoomNumber = 7:
+            room_7()
+        elif nextRoomNumber = 8:
+            room_8()
+        else nextRoomNumber = 9:
+            room_9()
     else:
-        gameover("You are victorious, crowds cheer as you emerge from the labrynth unharmed!")
-
-def scorecount():
-    score = room_survived
+        gameover("You are victorious, crowds cheer as you emerge from the labryinth unharmed!")
 
 def gameover(why):
     print(why, "Game Over!")

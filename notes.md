@@ -18,4 +18,14 @@ See this(https://stackoverflow.com/questions/3561279/learn-python-the-hard-way-e
 - [ ] Ex 22
 
 ## Tasks to do:
-- [ ] Fix ex17 code to create and copy files that use it's name, so we don't have test.txts floating around everywhere. (And clean those txt files up while we're at it.)
+- [x] Fix ex17 code to create and copy files that use it's name, so we don't have test.txts floating around everywhere. (And clean those txt files up while we're at it.)
+- [x] Learn how to use vim and then take over the world
+- [X] Figure out how to properly solarize terminal / vim / tmux
+- [ ] Actually pick Python back up again you big dolt, you spent too much time on your tools and not enough actually learning!!
+- [ ] Learn how to use virtualenv/conda
+- [ ] Learn how to use Kubernetes
+- [ ] Write a script to help coordinate these dotfiles
+- [ ] Get your dev environment on GCloud Debian
+- [ ] Make a website
+- [ ] Make a better website
+- [ ] Tackle gate project finally

@@ -17,3 +17,11 @@ Fueled by plenty of...
 > Coffee. The finest organic suspension ever devised… I beat the Borg with it. - Captain Janeway
 
 > Soylent. It's made of people...
+
+> Protein. It's what's for dinner!
+
+> Music. You call this music? Where's the drop?
+
+> Water. Dihydrogen Monoxide is a dangerous solvent that is also refreshing!
+
+> Sunlight. Because I'm starting to lose it without some Vitamin D.

@@ -40,10 +40,10 @@ def rooms():
 
 def nextroom():
     print("""A portal materializes in front of you with a loud pop.
-            You move forward, eager to put this room behind you.""")
+You move forward, eager to put this room behind you.""")
     score.points = score.points + 1
     print("""Somewhere in the multiverse, a counter ticks up to {score} rooms
-          passed!""")
+passed!""")
     availRoomRange = + nextRoomNumber
     if score.points < 10:
         nextRoomNumber = random.randint(availRoomRange)
@@ -69,7 +69,7 @@ def nextroom():
             pass
     else:
         gameover("""You are victorious, crowds cheer as you emerge from the
-                 labryinth unharmed!""")
+labryinth unharmed!""")
 
 
 def gameover(why):

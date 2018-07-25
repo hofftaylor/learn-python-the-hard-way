@@ -4,33 +4,34 @@ from sys import exit
 import random
 
 
-def score():
-    points = 0
-
-
 def start():
-    score.points = 0
     print("""You walk up to the Labrinth Registration Center(tm)
-            and ask for your battle forms. Do you get them for free?""")
+and ask for your battle forms. Do you get them for free?""")
     action = input("RegCenter> ")
 
-    if "free" or "yes" in action:
+    if action == "yes":
+        # Can't seem to use an or statement here w/o breaking logic?
         print("""The creature at the counter croaks at you:
-        "No, I'm sorry but you'll have to pay the entry fee."
-        Well, it was worth a try. You slide your federation credits across the
-              table.""")
-        nextroom()
-    elif "no" in action:
+"I'm sorry but you'll have to pay the entry fee."
+Well, it was worth a try. You slide your federation credits across the
+table.""")
+        rooms()
+    elif action == "no":
         print("""No way they're free. You miss every shot you don't take. You
-              slide your credits across the table.""")
-        nextroom()
+slide your credits across the table.""")
+        rooms()
     else:
         print("""The creature at the counter mumbles incoherently at you,
-              something is probably wrong with your translator. It alarmingly
-              swings a device at you, deducting the credits from your account
-              before pushing a button, screaming as spittle flies from its
-              mouth.""")
-        nextroom()
+something is probably wrong with your translator. It alarmingly
+swings a device at you, deducting the credits from your account
+before pushing a button, screaming strange alien syllables as spittle flies
+from its mouth.""")
+        gameover("""You're dropped into a pool of sulfur, must've bought the
+wrong thing...""")
+
+
+def score():
+    points = 0
 
 
 def rooms():
@@ -73,7 +74,7 @@ def nextroom():
 
 def gameover(why):
     print(why, "Game Over!")
-    print("""You survived {score} rooms!""")
+    print(f"You survived {score.points} rooms!")
     exit(0)
 
 

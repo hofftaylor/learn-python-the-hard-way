@@ -5,7 +5,7 @@ import random
 
 
 def start():
-    score = 0
+    score.points = 0
     print("""You walk up to the Labrinth Registration Center(tm)
 and ask for your battle forms. Do you get them for free?""")
     action = input("RegCenter> ")
@@ -30,6 +30,10 @@ from its mouth.""")
 wrong thing...""")
 
 
+def score():
+    pass
+
+
 def rooms():
     pass
 
@@ -37,10 +41,10 @@ def rooms():
 def nextroom():
     print("""A portal materializes in front of you with a loud pop.
 You move forward, eager to put this room behind you.""")
-    score = score + 1
-    print(f"""Somewhere in the multiverse, a counter ticks up to {score} rooms
+    score.points += 1
+    print(f"""Somewhere in the multiverse, a counter ticks up to {score.points} rooms
 passed!""")
-    if score < 10:
+    if score.points <= 10:
         nextRoomNumber = random.randint(0, 9)
         if nextRoomNumber == 0:
             print("Room 0")
@@ -69,8 +73,10 @@ passed!""")
         elif nextRoomNumber == 8:
             print("Room 8")
             pass
-        else nextRoomNumber == 9:
+        elif nextRoomNumber == 9:
             print("Room 9")
+            pass
+        else:
             pass
     else:
         gameover("""You are victorious, crowds cheer as you emerge from the

@@ -1,0 +1,4 @@
+name: lp3thw
+dependencies:
+    - python=3.7.1
+    - ipython
